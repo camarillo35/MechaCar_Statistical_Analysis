@@ -1,20 +1,23 @@
 # MechaCar_Statistical_Analysis
 
-Deliverable 1 Summary
+# Deliverable 1 Summary
+
+
 The MechaCar_mpg.csv dataset contains mpg test results for 50 prototype MechaCars. The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Using R we will design a linear model that predicts the mpg of MechaCar prototypes using several variables/Coefficients.
 
 Using the script to calculate the linear regression and the summary of linear regression model we can determine the p-value and the r-squared value.
 
 <img width="650" alt="1 A" src="https://user-images.githubusercontent.com/92793248/153610796-027fb992-1bac-483d-9c94-3cdd28847cbe.png">
 
-Predictions for linear regression
 
 There are no variables that provide a non-random amount of variance to the mpg values in the dataset because the pr(>|t|) value is greater than 0.05. Which means that it has no significant impact on the mpg values and we can reject the null hypothesis.
 The slope of the linear model is not considered to be zero because all the variables/coefficients are directly proportional to the mpg vales.
 The linear model does not predict mpg of MechaCar prototypes effectively because the p value of the multiple linear regression is 5.35e-11 which is higher than 0.05 and is not signficant.
 
 
-Deliverable 2 Summary 
+# Deliverable 2 Summary 
+
+
 The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots.
 We will calculate the following using R
 
